@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"target": "esnext",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"baseUrl": ".",
+		"outDir": "dist",
+		"declaration": true,
+		"declarationDir": "dist",
+		"paths": {
+			"daily-prng": ["src/index.js"]
+		}
+	}
+}
