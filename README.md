@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/github/license/ferdodo/daily-prng)](https://github.com/ferdodo/daily-prng)
 [![npm](https://img.shields.io/badge/documentation-blue)](https://ferdodo.github.io/daily-prng/)
 
-Random number generator that generates the same sequence of numbers every day.
+Random number generator that changes seed every day.
 
 ## Installation
 
