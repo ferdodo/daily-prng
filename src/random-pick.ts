@@ -6,6 +6,10 @@ import { randomInteger } from "daily-prng";
  * @includeExample ./src/random-pick.example.ts
  */
 export function randomPick<T>(arr: T[]): T {
+	if (arr.length === 0) {
+		throw new Error("Cannot randomly pick an empty array !");
+	}
+
 	const index = randomInteger(0, arr.length);
 	const item: T | undefined = arr[index];
 
