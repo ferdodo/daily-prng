@@ -1,8 +1,7 @@
 import Randoma from "randoma";
+import { getSeed } from "./get-seed.js";
 
-const seed = new Date()
-	.toLocaleDateString();
-
+const seed = getSeed();
 const random = new Randoma({ seed });
 
 /**
